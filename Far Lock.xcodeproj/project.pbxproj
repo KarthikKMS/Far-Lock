@@ -21,6 +21,8 @@
 		D9C9E7001E36662A00CBD713 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */; };
 		D9C9E7031E366AFF00CBD713 /* NoMacFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */; };
 		D9C9E7061E366B2600CBD713 /* NoMacFoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */; };
+		D9C9E7091E367E9D00CBD713 /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E7071E367E9D00CBD713 /* EnterPasswordViewController.swift */; };
+		D9C9E70C1E367EB500CBD713 /* EnterPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E70B1E367EB500CBD713 /* EnterPasswordViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMacFoundViewController.swift; sourceTree = "<group>"; };
 		D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoMacFoundViewController.xib; sourceTree = "<group>"; };
+		D9C9E7071E367E9D00CBD713 /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
+		D9C9E70B1E367EB500CBD713 /* EnterPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterPasswordViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 			children = (
 				D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */,
 				D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */,
+				D9C9E7071E367E9D00CBD713 /* EnterPasswordViewController.swift */,
 				D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */,
 			);
 			path = Controller;
@@ -190,6 +195,7 @@
 			children = (
 				D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */,
 				D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */,
+				D9C9E70B1E367EB500CBD713 /* EnterPasswordViewController.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */,
+				D9C9E70C1E367EB500CBD713 /* EnterPasswordViewController.xib in Resources */,
 				D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */,
 				D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */,
 				D9C9E6FE1E3665E600CBD713 /* FarLockStoryboard.storyboard in Resources */,
@@ -335,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C9E7091E367E9D00CBD713 /* EnterPasswordViewController.swift in Sources */,
 				D9C9E7001E36662A00CBD713 /* InitialViewController.swift in Sources */,
 				D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */,
 				D9C9E7031E366AFF00CBD713 /* NoMacFoundViewController.swift in Sources */,

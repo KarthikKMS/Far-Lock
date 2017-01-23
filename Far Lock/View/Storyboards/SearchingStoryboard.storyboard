@@ -8,10 +8,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
     </dependencies>
     <scenes>
-        <!--No Mac Found View Controller-->
+        <!--Enter Password View Controller-->
         <scene sceneID="Wvy-Kq-5MN">
             <objects>
-                <viewController id="0lI-Pi-f4Z" customClass="NoMacFoundViewController" customModule="Far_Lock" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController id="0lI-Pi-f4Z" customClass="EnterPasswordViewController" customModule="Far_Lock" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9V-3D-iPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="442" y="-185"/>
