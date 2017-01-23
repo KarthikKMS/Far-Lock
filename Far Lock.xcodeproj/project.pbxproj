@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */; };
-		D9C9E64F1E360B3E00CBD713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64E1E360B3E00CBD713 /* ViewController.swift */; };
-		D9C9E6521E360B3E00CBD713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6501E360B3E00CBD713 /* Main.storyboard */; };
-		D9C9E6551E360B3E00CBD713 /* Far_Lock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6531E360B3E00CBD713 /* Far_Lock.xcdatamodeld */; };
 		D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6561E360B3E00CBD713 /* Assets.xcassets */; };
-		D9C9E65A1E360B3E00CBD713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6581E360B3E00CBD713 /* LaunchScreen.storyboard */; };
 		D9C9E6651E360B3F00CBD713 /* Far_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */; };
 		D9C9E6701E360B3F00CBD713 /* Far_LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */; };
+		D9C9E6851E3638EC00CBD713 /* BluetoothOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */; };
+		D9C9E6971E3644C800CBD713 /* Far_Lock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E68E1E3644C800CBD713 /* Far_Lock.xcdatamodeld */; };
+		D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */; };
+		D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6941E3644C800CBD713 /* Main.storyboard */; };
+		D9C9E69A1E3644C800CBD713 /* BluetoothOffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */; };
+		D9C9E69D1E36495600CBD713 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E69B1E36495600CBD713 /* DummyViewController.swift */; };
+		D9C9E6A01E36497600CBD713 /* DummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E69F1E36497600CBD713 /* DummyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,7 @@
 /* Begin PBXFileReference section */
 		D9C9E6491E360B3E00CBD713 /* Far Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9C9E64E1E360B3E00CBD713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9C9E6511E360B3E00CBD713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9C9E6541E360B3E00CBD713 /* Far_Lock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Far_Lock.xcdatamodel; sourceTree = "<group>"; };
 		D9C9E6561E360B3E00CBD713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9C9E6591E360B3E00CBD713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C9E65B1E360B3E00CBD713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9C9E6601E360B3F00CBD713 /* Far LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_LockTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,13 @@
 		D9C9E66B1E360B3F00CBD713 /* Far LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far LockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_LockUITests.swift; sourceTree = "<group>"; };
 		D9C9E6711E360B3F00CBD713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothOffViewController.swift; sourceTree = "<group>"; };
+		D9C9E68F1E3644C800CBD713 /* Far_Lock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Far_Lock.xcdatamodel; sourceTree = "<group>"; };
+		D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9C9E6941E3644C800CBD713 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothOffViewController.xib; sourceTree = "<group>"; };
+		D9C9E69B1E36495600CBD713 /* DummyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		D9C9E69F1E36497600CBD713 /* DummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DummyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */,
-				D9C9E64E1E360B3E00CBD713 /* ViewController.swift */,
-				D9C9E6501E360B3E00CBD713 /* Main.storyboard */,
+				D9C9E68D1E3644C800CBD713 /* Model */,
+				D9C9E6911E3644C800CBD713 /* View */,
+				D9C9E6811E3638EC00CBD713 /* Controller */,
+				D9C9E6901E3644C800CBD713 /* Utilities */,
 				D9C9E6561E360B3E00CBD713 /* Assets.xcassets */,
-				D9C9E6581E360B3E00CBD713 /* LaunchScreen.storyboard */,
 				D9C9E65B1E360B3E00CBD713 /* Info.plist */,
-				D9C9E6531E360B3E00CBD713 /* Far_Lock.xcdatamodeld */,
 			);
 			path = "Far Lock";
 			sourceTree = "<group>";
@@ -126,6 +132,57 @@
 				D9C9E6711E360B3F00CBD713 /* Info.plist */,
 			);
 			path = "Far LockUITests";
+			sourceTree = "<group>";
+		};
+		D9C9E6811E3638EC00CBD713 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */,
+				D9C9E69B1E36495600CBD713 /* DummyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9C9E68D1E3644C800CBD713 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E68E1E3644C800CBD713 /* Far_Lock.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9C9E6901E3644C800CBD713 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D9C9E6911E3644C800CBD713 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E6921E3644C800CBD713 /* Storyboards */,
+				D9C9E6951E3644C800CBD713 /* XIBs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9C9E6921E3644C800CBD713 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */,
+				D9C9E6941E3644C800CBD713 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D9C9E6951E3644C800CBD713 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E69F1E36497600CBD713 /* DummyViewController.xib */,
+				D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C9E65A1E360B3E00CBD713 /* LaunchScreen.storyboard in Resources */,
+				D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */,
 				D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */,
-				D9C9E6521E360B3E00CBD713 /* Main.storyboard in Resources */,
+				D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */,
+				D9C9E69A1E3644C800CBD713 /* BluetoothOffViewController.xib in Resources */,
+				D9C9E6A01E36497600CBD713 /* DummyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C9E6551E360B3E00CBD713 /* Far_Lock.xcdatamodeld in Sources */,
-				D9C9E64F1E360B3E00CBD713 /* ViewController.swift in Sources */,
 				D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */,
+				D9C9E6971E3644C800CBD713 /* Far_Lock.xcdatamodeld in Sources */,
+				D9C9E6851E3638EC00CBD713 /* BluetoothOffViewController.swift in Sources */,
+				D9C9E69D1E36495600CBD713 /* DummyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +361,6 @@
 			targetProxy = D9C9E66C1E360B3F00CBD713 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D9C9E6501E360B3E00CBD713 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9C9E6511E360B3E00CBD713 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D9C9E6581E360B3E00CBD713 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9C9E6591E360B3E00CBD713 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D9C9E6721E360B3F00CBD713 /* Debug */ = {
@@ -538,12 +579,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D9C9E6531E360B3E00CBD713 /* Far_Lock.xcdatamodeld */ = {
+		D9C9E68E1E3644C800CBD713 /* Far_Lock.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D9C9E6541E360B3E00CBD713 /* Far_Lock.xcdatamodel */,
+				D9C9E68F1E3644C800CBD713 /* Far_Lock.xcdatamodel */,
 			);
-			currentVersion = D9C9E6541E360B3E00CBD713 /* Far_Lock.xcdatamodel */;
+			currentVersion = D9C9E68F1E3644C800CBD713 /* Far_Lock.xcdatamodel */;
 			path = Far_Lock.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
