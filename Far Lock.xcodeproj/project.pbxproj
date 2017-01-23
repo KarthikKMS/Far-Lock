@@ -16,8 +16,11 @@
 		D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */; };
 		D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6941E3644C800CBD713 /* Main.storyboard */; };
 		D9C9E69A1E3644C800CBD713 /* BluetoothOffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */; };
-		D9C9E69D1E36495600CBD713 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E69B1E36495600CBD713 /* DummyViewController.swift */; };
-		D9C9E6A01E36497600CBD713 /* DummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E69F1E36497600CBD713 /* DummyViewController.xib */; };
+		D9C9E6FC1E3665DA00CBD713 /* SearchingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6FB1E3665DA00CBD713 /* SearchingStoryboard.storyboard */; };
+		D9C9E6FE1E3665E600CBD713 /* FarLockStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6FD1E3665E600CBD713 /* FarLockStoryboard.storyboard */; };
+		D9C9E7001E36662A00CBD713 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */; };
+		D9C9E7031E366AFF00CBD713 /* NoMacFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */; };
+		D9C9E7061E366B2600CBD713 /* NoMacFoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +56,11 @@
 		D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C9E6941E3644C800CBD713 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothOffViewController.xib; sourceTree = "<group>"; };
-		D9C9E69B1E36495600CBD713 /* DummyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
-		D9C9E69F1E36497600CBD713 /* DummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DummyViewController.xib; sourceTree = "<group>"; };
+		D9C9E6FB1E3665DA00CBD713 /* SearchingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchingStoryboard.storyboard; sourceTree = "<group>"; };
+		D9C9E6FD1E3665E600CBD713 /* FarLockStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FarLockStoryboard.storyboard; sourceTree = "<group>"; };
+		D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMacFoundViewController.swift; sourceTree = "<group>"; };
+		D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoMacFoundViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */,
-				D9C9E69B1E36495600CBD713 /* DummyViewController.swift */,
+				D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */,
+				D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,6 +179,8 @@
 			children = (
 				D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */,
 				D9C9E6941E3644C800CBD713 /* Main.storyboard */,
+				D9C9E6FB1E3665DA00CBD713 /* SearchingStoryboard.storyboard */,
+				D9C9E6FD1E3665E600CBD713 /* FarLockStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -179,8 +188,8 @@
 		D9C9E6951E3644C800CBD713 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
-				D9C9E69F1E36497600CBD713 /* DummyViewController.xib */,
 				D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */,
+				D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -298,8 +307,10 @@
 				D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */,
 				D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */,
 				D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */,
+				D9C9E6FE1E3665E600CBD713 /* FarLockStoryboard.storyboard in Resources */,
 				D9C9E69A1E3644C800CBD713 /* BluetoothOffViewController.xib in Resources */,
-				D9C9E6A01E36497600CBD713 /* DummyViewController.xib in Resources */,
+				D9C9E6FC1E3665DA00CBD713 /* SearchingStoryboard.storyboard in Resources */,
+				D9C9E7061E366B2600CBD713 /* NoMacFoundViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +335,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C9E7001E36662A00CBD713 /* InitialViewController.swift in Sources */,
 				D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */,
+				D9C9E7031E366AFF00CBD713 /* NoMacFoundViewController.swift in Sources */,
 				D9C9E6971E3644C800CBD713 /* Far_Lock.xcdatamodeld in Sources */,
 				D9C9E6851E3638EC00CBD713 /* BluetoothOffViewController.swift in Sources */,
-				D9C9E69D1E36495600CBD713 /* DummyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
