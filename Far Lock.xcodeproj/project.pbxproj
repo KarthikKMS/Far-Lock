@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */; };
+		D9C9E64F1E360B3E00CBD713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64E1E360B3E00CBD713 /* ViewController.swift */; };
+		D9C9E6521E360B3E00CBD713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6501E360B3E00CBD713 /* Main.storyboard */; };
+		D9C9E6551E360B3E00CBD713 /* Far_Lock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6531E360B3E00CBD713 /* Far_Lock.xcdatamodeld */; };
+		D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6561E360B3E00CBD713 /* Assets.xcassets */; };
+		D9C9E65A1E360B3E00CBD713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6581E360B3E00CBD713 /* LaunchScreen.storyboard */; };
+		D9C9E6651E360B3F00CBD713 /* Far_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */; };
+		D9C9E6701E360B3F00CBD713 /* Far_LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C9E6611E360B3F00CBD713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C9E6411E360B3E00CBD713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C9E6481E360B3E00CBD713;
+			remoteInfo = "Far Lock";
+		};
+		D9C9E66C1E360B3F00CBD713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C9E6411E360B3E00CBD713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C9E6481E360B3E00CBD713;
+			remoteInfo = "Far Lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9C9E6491E360B3E00CBD713 /* Far Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9C9E64E1E360B3E00CBD713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9C9E6511E360B3E00CBD713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9C9E6541E360B3E00CBD713 /* Far_Lock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Far_Lock.xcdatamodel; sourceTree = "<group>"; };
+		D9C9E6561E360B3E00CBD713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9C9E6591E360B3E00CBD713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9C9E65B1E360B3E00CBD713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C9E6601E360B3F00CBD713 /* Far LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_LockTests.swift; sourceTree = "<group>"; };
+		D9C9E6661E360B3F00CBD713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C9E66B1E360B3F00CBD713 /* Far LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far LockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_LockUITests.swift; sourceTree = "<group>"; };
+		D9C9E6711E360B3F00CBD713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C9E6461E360B3E00CBD713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C9E65D1E360B3F00CBD713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C9E6681E360B3F00CBD713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9C9E6401E360B3E00CBD713 = {
+			isa = PBXGroup;
+			children = (
+				D9C9E64B1E360B3E00CBD713 /* Far Lock */,
+				D9C9E6631E360B3F00CBD713 /* Far LockTests */,
+				D9C9E66E1E360B3F00CBD713 /* Far LockUITests */,
+				D9C9E64A1E360B3E00CBD713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C9E64A1E360B3E00CBD713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E6491E360B3E00CBD713 /* Far Lock.app */,
+				D9C9E6601E360B3F00CBD713 /* Far LockTests.xctest */,
+				D9C9E66B1E360B3F00CBD713 /* Far LockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C9E64B1E360B3E00CBD713 /* Far Lock */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */,
+				D9C9E64E1E360B3E00CBD713 /* ViewController.swift */,
+				D9C9E6501E360B3E00CBD713 /* Main.storyboard */,
+				D9C9E6561E360B3E00CBD713 /* Assets.xcassets */,
+				D9C9E6581E360B3E00CBD713 /* LaunchScreen.storyboard */,
+				D9C9E65B1E360B3E00CBD713 /* Info.plist */,
+				D9C9E6531E360B3E00CBD713 /* Far_Lock.xcdatamodeld */,
+			);
+			path = "Far Lock";
+			sourceTree = "<group>";
+		};
+		D9C9E6631E360B3F00CBD713 /* Far LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */,
+				D9C9E6661E360B3F00CBD713 /* Info.plist */,
+			);
+			path = "Far LockTests";
+			sourceTree = "<group>";
+		};
+		D9C9E66E1E360B3F00CBD713 /* Far LockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */,
+				D9C9E6711E360B3F00CBD713 /* Info.plist */,
+			);
+			path = "Far LockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C9E6481E360B3E00CBD713 /* Far Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C9E6741E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far Lock" */;
+			buildPhases = (
+				D9C9E6451E360B3E00CBD713 /* Sources */,
+				D9C9E6461E360B3E00CBD713 /* Frameworks */,
+				D9C9E6471E360B3E00CBD713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Far Lock";
+			productName = "Far Lock";
+			productReference = D9C9E6491E360B3E00CBD713 /* Far Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9C9E65F1E360B3F00CBD713 /* Far LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C9E6771E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far LockTests" */;
+			buildPhases = (
+				D9C9E65C1E360B3F00CBD713 /* Sources */,
+				D9C9E65D1E360B3F00CBD713 /* Frameworks */,
+				D9C9E65E1E360B3F00CBD713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C9E6621E360B3F00CBD713 /* PBXTargetDependency */,
+			);
+			name = "Far LockTests";
+			productName = "Far LockTests";
+			productReference = D9C9E6601E360B3F00CBD713 /* Far LockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9C9E66A1E360B3F00CBD713 /* Far LockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C9E67A1E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far LockUITests" */;
+			buildPhases = (
+				D9C9E6671E360B3F00CBD713 /* Sources */,
+				D9C9E6681E360B3F00CBD713 /* Frameworks */,
+				D9C9E6691E360B3F00CBD713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C9E66D1E360B3F00CBD713 /* PBXTargetDependency */,
+			);
+			name = "Far LockUITests";
+			productName = "Far LockUITests";
+			productReference = D9C9E66B1E360B3F00CBD713 /* Far LockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C9E6411E360B3E00CBD713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Karthik M S";
+				TargetAttributes = {
+					D9C9E6481E360B3E00CBD713 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TZ824L8Y37;
+						ProvisioningStyle = Automatic;
+					};
+					D9C9E65F1E360B3F00CBD713 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TZ824L8Y37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9C9E6481E360B3E00CBD713;
+					};
+					D9C9E66A1E360B3F00CBD713 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TZ824L8Y37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9C9E6481E360B3E00CBD713;
+					};
+				};
+			};
+			buildConfigurationList = D9C9E6441E360B3E00CBD713 /* Build configuration list for PBXProject "Far Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9C9E6401E360B3E00CBD713;
+			productRefGroup = D9C9E64A1E360B3E00CBD713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C9E6481E360B3E00CBD713 /* Far Lock */,
+				D9C9E65F1E360B3F00CBD713 /* Far LockTests */,
+				D9C9E66A1E360B3F00CBD713 /* Far LockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C9E6471E360B3E00CBD713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C9E65A1E360B3E00CBD713 /* LaunchScreen.storyboard in Resources */,
+				D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */,
+				D9C9E6521E360B3E00CBD713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C9E65E1E360B3F00CBD713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C9E6691E360B3F00CBD713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C9E6451E360B3E00CBD713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C9E6551E360B3E00CBD713 /* Far_Lock.xcdatamodeld in Sources */,
+				D9C9E64F1E360B3E00CBD713 /* ViewController.swift in Sources */,
+				D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C9E65C1E360B3F00CBD713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C9E6651E360B3F00CBD713 /* Far_LockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C9E6671E360B3F00CBD713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C9E6701E360B3F00CBD713 /* Far_LockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9C9E6621E360B3F00CBD713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C9E6481E360B3E00CBD713 /* Far Lock */;
+			targetProxy = D9C9E6611E360B3F00CBD713 /* PBXContainerItemProxy */;
+		};
+		D9C9E66D1E360B3F00CBD713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C9E6481E360B3E00CBD713 /* Far Lock */;
+			targetProxy = D9C9E66C1E360B3F00CBD713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9C9E6501E360B3E00CBD713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C9E6511E360B3E00CBD713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9C9E6581E360B3E00CBD713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C9E6591E360B3E00CBD713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9C9E6721E360B3F00CBD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9C9E6731E360B3F00CBD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C9E6751E360B3F00CBD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = "Far Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D9C9E6761E360B3F00CBD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = "Far Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D9C9E6781E360B3F00CBD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = "Far LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-LockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Far Lock.app/Far Lock";
+			};
+			name = Debug;
+		};
+		D9C9E6791E360B3F00CBD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = "Far LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-LockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Far Lock.app/Far Lock";
+			};
+			name = Release;
+		};
+		D9C9E67B1E360B3F00CBD713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = "Far LockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-LockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Far Lock";
+			};
+			name = Debug;
+		};
+		D9C9E67C1E360B3F00CBD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = "Far LockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-LockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Far Lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C9E6441E360B3E00CBD713 /* Build configuration list for PBXProject "Far Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C9E6721E360B3F00CBD713 /* Debug */,
+				D9C9E6731E360B3F00CBD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C9E6741E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C9E6751E360B3F00CBD713 /* Debug */,
+				D9C9E6761E360B3F00CBD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9C9E6771E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C9E6781E360B3F00CBD713 /* Debug */,
+				D9C9E6791E360B3F00CBD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9C9E67A1E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far LockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C9E67B1E360B3F00CBD713 /* Debug */,
+				D9C9E67C1E360B3F00CBD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9C9E6531E360B3E00CBD713 /* Far_Lock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9C9E6541E360B3E00CBD713 /* Far_Lock.xcdatamodel */,
+			);
+			currentVersion = D9C9E6541E360B3E00CBD713 /* Far_Lock.xcdatamodel */;
+			path = Far_Lock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9C9E6411E360B3E00CBD713 /* Project object */;
+}
