@@ -22,6 +22,8 @@ class EnterPasswordViewController: UIViewController {
     @IBOutlet weak var wrongPasswordView: UIView!
     @IBOutlet weak var tryAgainButton: UIButton!
     
+    @IBOutlet weak var correctPasswordView: UIView!
+    @IBOutlet weak var continueButton: UIButton!
     
     // MARK: - ViewController Methods
     
@@ -33,15 +35,17 @@ class EnterPasswordViewController: UIViewController {
         connectButton.layer.borderColor = UIColor.white.cgColor
         cancelButton.layer.borderColor = UIColor.white.cgColor
         tryAgainButton.layer.borderColor = UIColor.white.cgColor
+        continueButton.layer.borderColor = UIColor.white.cgColor
     }
     
     
     // MARK: - IBActions
     
     @IBAction func connectButtonPressed(_ sender: UIButton) {
-        // delete 
         rootStackView.alpha = 0.1
-        wrongPasswordView.isHidden = false
+        
+        // delete
+        correctPasswordView.isHidden = false
         // delete
     }
     
@@ -54,6 +58,9 @@ class EnterPasswordViewController: UIViewController {
         wrongPasswordView.isHidden = true
     }
 
+    @IBAction func continueButtonPressed(_ sender: UIButton) {
+        
+    }
     
     /*
     // MARK: - Navigation
