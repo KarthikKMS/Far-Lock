@@ -21,6 +21,8 @@
 		D93DB8CA1E37A8E50023E69C /* NoMacFoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8BE1E37A8E50023E69C /* NoMacFoundViewController.xib */; };
 		D93DB8CD1E37AAC00023E69C /* LockConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8CB1E37AAC00023E69C /* LockConfigurationViewController.swift */; };
 		D93DB8D01E37AADF0023E69C /* LockConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */; };
+		D93DB8D31E37C7E10023E69C /* DeviceManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8D11E37C7E10023E69C /* DeviceManagerViewController.swift */; };
+		D93DB8D61E37C7EF0023E69C /* DeviceManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8D51E37C7EF0023E69C /* DeviceManagerViewController.xib */; };
 		D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */; };
 		D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6561E360B3E00CBD713 /* Assets.xcassets */; };
 		D9C9E6651E360B3F00CBD713 /* Far_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */; };
@@ -59,6 +61,8 @@
 		D93DB8BE1E37A8E50023E69C /* NoMacFoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoMacFoundViewController.xib; sourceTree = "<group>"; };
 		D93DB8CB1E37AAC00023E69C /* LockConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockConfigurationViewController.swift; sourceTree = "<group>"; };
 		D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockConfigurationViewController.xib; sourceTree = "<group>"; };
+		D93DB8D11E37C7E10023E69C /* DeviceManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManagerViewController.swift; sourceTree = "<group>"; };
+		D93DB8D51E37C7EF0023E69C /* DeviceManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceManagerViewController.xib; sourceTree = "<group>"; };
 		D9C9E6491E360B3E00CBD713 /* Far Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C9E6561E360B3E00CBD713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				D93DB8CB1E37AAC00023E69C /* LockConfigurationViewController.swift */,
 				D93DB8B01E37A8E50023E69C /* InitialViewController.swift */,
 				D93DB8B11E37A8E50023E69C /* NoMacFoundViewController.swift */,
+				D93DB8D11E37C7E10023E69C /* DeviceManagerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			children = (
 				D93DB8B61E37A8E50023E69C /* Storyboards */,
 				D93DB8BB1E37A8E50023E69C /* XIBs */,
+				D93DB8D71E37CC960023E69C /* Files */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -143,8 +149,16 @@
 				D93DB8BD1E37A8E50023E69C /* EnterPasswordViewController.xib */,
 				D93DB8BE1E37A8E50023E69C /* NoMacFoundViewController.xib */,
 				D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */,
+				D93DB8D51E37C7EF0023E69C /* DeviceManagerViewController.xib */,
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		D93DB8D71E37CC960023E69C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 		D9C9E6401E360B3E00CBD713 = {
@@ -321,6 +335,7 @@
 				D93DB8C81E37A8E50023E69C /* BluetoothOffViewController.xib in Resources */,
 				D93DB8C41E37A8E50023E69C /* FarLockStoryboard.storyboard in Resources */,
 				D93DB8C71E37A8E50023E69C /* SearchingStoryboard.storyboard in Resources */,
+				D93DB8D61E37C7EF0023E69C /* DeviceManagerViewController.xib in Resources */,
 				D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */,
 				D93DB8CA1E37A8E50023E69C /* NoMacFoundViewController.xib in Resources */,
 				D93DB8D01E37AADF0023E69C /* LockConfigurationViewController.xib in Resources */,
@@ -351,6 +366,7 @@
 			files = (
 				D93DB8C31E37A8E50023E69C /* Far_Lock.xcdatamodeld in Sources */,
 				D93DB8CD1E37AAC00023E69C /* LockConfigurationViewController.swift in Sources */,
+				D93DB8D31E37C7E10023E69C /* DeviceManagerViewController.swift in Sources */,
 				D93DB8C01E37A8E50023E69C /* EnterPasswordViewController.swift in Sources */,
 				D93DB8BF1E37A8E50023E69C /* BluetoothOffViewController.swift in Sources */,
 				D93DB8C21E37A8E50023E69C /* NoMacFoundViewController.swift in Sources */,
