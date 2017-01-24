@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D93DB8BF1E37A8E50023E69C /* BluetoothOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8AE1E37A8E50023E69C /* BluetoothOffViewController.swift */; };
+		D93DB8C01E37A8E50023E69C /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8AF1E37A8E50023E69C /* EnterPasswordViewController.swift */; };
+		D93DB8C11E37A8E50023E69C /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8B01E37A8E50023E69C /* InitialViewController.swift */; };
+		D93DB8C21E37A8E50023E69C /* NoMacFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8B11E37A8E50023E69C /* NoMacFoundViewController.swift */; };
+		D93DB8C31E37A8E50023E69C /* Far_Lock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8B31E37A8E50023E69C /* Far_Lock.xcdatamodeld */; };
+		D93DB8C41E37A8E50023E69C /* FarLockStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8B71E37A8E50023E69C /* FarLockStoryboard.storyboard */; };
+		D93DB8C51E37A8E50023E69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8B81E37A8E50023E69C /* LaunchScreen.storyboard */; };
+		D93DB8C61E37A8E50023E69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8B91E37A8E50023E69C /* Main.storyboard */; };
+		D93DB8C71E37A8E50023E69C /* SearchingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8BA1E37A8E50023E69C /* SearchingStoryboard.storyboard */; };
+		D93DB8C81E37A8E50023E69C /* BluetoothOffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8BC1E37A8E50023E69C /* BluetoothOffViewController.xib */; };
+		D93DB8C91E37A8E50023E69C /* EnterPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8BD1E37A8E50023E69C /* EnterPasswordViewController.xib */; };
+		D93DB8CA1E37A8E50023E69C /* NoMacFoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8BE1E37A8E50023E69C /* NoMacFoundViewController.xib */; };
+		D93DB8CD1E37AAC00023E69C /* LockConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8CB1E37AAC00023E69C /* LockConfigurationViewController.swift */; };
+		D93DB8D01E37AADF0023E69C /* LockConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */; };
 		D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */; };
 		D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6561E360B3E00CBD713 /* Assets.xcassets */; };
 		D9C9E6651E360B3F00CBD713 /* Far_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */; };
 		D9C9E6701E360B3F00CBD713 /* Far_LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */; };
-		D9C9E6851E3638EC00CBD713 /* BluetoothOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */; };
-		D9C9E6971E3644C800CBD713 /* Far_Lock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E68E1E3644C800CBD713 /* Far_Lock.xcdatamodeld */; };
-		D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */; };
-		D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6941E3644C800CBD713 /* Main.storyboard */; };
-		D9C9E69A1E3644C800CBD713 /* BluetoothOffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */; };
-		D9C9E6FC1E3665DA00CBD713 /* SearchingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6FB1E3665DA00CBD713 /* SearchingStoryboard.storyboard */; };
-		D9C9E6FE1E3665E600CBD713 /* FarLockStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6FD1E3665E600CBD713 /* FarLockStoryboard.storyboard */; };
-		D9C9E7001E36662A00CBD713 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */; };
-		D9C9E7031E366AFF00CBD713 /* NoMacFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */; };
-		D9C9E7061E366B2600CBD713 /* NoMacFoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */; };
-		D9C9E7091E367E9D00CBD713 /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E7071E367E9D00CBD713 /* EnterPasswordViewController.swift */; };
-		D9C9E70C1E367EB500CBD713 /* EnterPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E70B1E367EB500CBD713 /* EnterPasswordViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D93DB8AE1E37A8E50023E69C /* BluetoothOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothOffViewController.swift; sourceTree = "<group>"; };
+		D93DB8AF1E37A8E50023E69C /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
+		D93DB8B01E37A8E50023E69C /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		D93DB8B11E37A8E50023E69C /* NoMacFoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMacFoundViewController.swift; sourceTree = "<group>"; };
+		D93DB8B41E37A8E50023E69C /* Far_Lock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Far_Lock.xcdatamodel; sourceTree = "<group>"; };
+		D93DB8B71E37A8E50023E69C /* FarLockStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FarLockStoryboard.storyboard; sourceTree = "<group>"; };
+		D93DB8B81E37A8E50023E69C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D93DB8B91E37A8E50023E69C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D93DB8BA1E37A8E50023E69C /* SearchingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchingStoryboard.storyboard; sourceTree = "<group>"; };
+		D93DB8BC1E37A8E50023E69C /* BluetoothOffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothOffViewController.xib; sourceTree = "<group>"; };
+		D93DB8BD1E37A8E50023E69C /* EnterPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterPasswordViewController.xib; sourceTree = "<group>"; };
+		D93DB8BE1E37A8E50023E69C /* NoMacFoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoMacFoundViewController.xib; sourceTree = "<group>"; };
+		D93DB8CB1E37AAC00023E69C /* LockConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockConfigurationViewController.swift; sourceTree = "<group>"; };
+		D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockConfigurationViewController.xib; sourceTree = "<group>"; };
 		D9C9E6491E360B3E00CBD713 /* Far Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C9E6561E360B3E00CBD713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,18 +69,6 @@
 		D9C9E66B1E360B3F00CBD713 /* Far LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far LockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E66F1E360B3F00CBD713 /* Far_LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_LockUITests.swift; sourceTree = "<group>"; };
 		D9C9E6711E360B3F00CBD713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothOffViewController.swift; sourceTree = "<group>"; };
-		D9C9E68F1E3644C800CBD713 /* Far_Lock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Far_Lock.xcdatamodel; sourceTree = "<group>"; };
-		D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D9C9E6941E3644C800CBD713 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothOffViewController.xib; sourceTree = "<group>"; };
-		D9C9E6FB1E3665DA00CBD713 /* SearchingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchingStoryboard.storyboard; sourceTree = "<group>"; };
-		D9C9E6FD1E3665E600CBD713 /* FarLockStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FarLockStoryboard.storyboard; sourceTree = "<group>"; };
-		D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
-		D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMacFoundViewController.swift; sourceTree = "<group>"; };
-		D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoMacFoundViewController.xib; sourceTree = "<group>"; };
-		D9C9E7071E367E9D00CBD713 /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
-		D9C9E70B1E367EB500CBD713 /* EnterPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterPasswordViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D93DB8AD1E37A8E50023E69C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D93DB8AE1E37A8E50023E69C /* BluetoothOffViewController.swift */,
+				D93DB8AF1E37A8E50023E69C /* EnterPasswordViewController.swift */,
+				D93DB8CB1E37AAC00023E69C /* LockConfigurationViewController.swift */,
+				D93DB8B01E37A8E50023E69C /* InitialViewController.swift */,
+				D93DB8B11E37A8E50023E69C /* NoMacFoundViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D93DB8B21E37A8E50023E69C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D93DB8B31E37A8E50023E69C /* Far_Lock.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D93DB8B51E37A8E50023E69C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D93DB8B61E37A8E50023E69C /* Storyboards */,
+				D93DB8BB1E37A8E50023E69C /* XIBs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D93DB8B61E37A8E50023E69C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D93DB8B71E37A8E50023E69C /* FarLockStoryboard.storyboard */,
+				D93DB8B81E37A8E50023E69C /* LaunchScreen.storyboard */,
+				D93DB8B91E37A8E50023E69C /* Main.storyboard */,
+				D93DB8BA1E37A8E50023E69C /* SearchingStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D93DB8BB1E37A8E50023E69C /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				D93DB8BC1E37A8E50023E69C /* BluetoothOffViewController.xib */,
+				D93DB8BD1E37A8E50023E69C /* EnterPasswordViewController.xib */,
+				D93DB8BE1E37A8E50023E69C /* NoMacFoundViewController.xib */,
+				D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		D9C9E6401E360B3E00CBD713 = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */,
-				D9C9E68D1E3644C800CBD713 /* Model */,
-				D9C9E6911E3644C800CBD713 /* View */,
-				D9C9E6811E3638EC00CBD713 /* Controller */,
+				D93DB8B21E37A8E50023E69C /* Models */,
+				D93DB8B51E37A8E50023E69C /* Views */,
+				D93DB8AD1E37A8E50023E69C /* Controllers */,
 				D9C9E6901E3644C800CBD713 /* Utilities */,
 				D9C9E6561E360B3E00CBD713 /* Assets.xcassets */,
 				D9C9E65B1E360B3E00CBD713 /* Info.plist */,
@@ -144,60 +199,11 @@
 			path = "Far LockUITests";
 			sourceTree = "<group>";
 		};
-		D9C9E6811E3638EC00CBD713 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D9C9E6821E3638EC00CBD713 /* BluetoothOffViewController.swift */,
-				D9C9E7011E366AFF00CBD713 /* NoMacFoundViewController.swift */,
-				D9C9E7071E367E9D00CBD713 /* EnterPasswordViewController.swift */,
-				D9C9E6FF1E36662A00CBD713 /* InitialViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D9C9E68D1E3644C800CBD713 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D9C9E68E1E3644C800CBD713 /* Far_Lock.xcdatamodeld */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		D9C9E6901E3644C800CBD713 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		D9C9E6911E3644C800CBD713 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D9C9E6921E3644C800CBD713 /* Storyboards */,
-				D9C9E6951E3644C800CBD713 /* XIBs */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D9C9E6921E3644C800CBD713 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				D9C9E6931E3644C800CBD713 /* LaunchScreen.storyboard */,
-				D9C9E6941E3644C800CBD713 /* Main.storyboard */,
-				D9C9E6FB1E3665DA00CBD713 /* SearchingStoryboard.storyboard */,
-				D9C9E6FD1E3665E600CBD713 /* FarLockStoryboard.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		D9C9E6951E3644C800CBD713 /* XIBs */ = {
-			isa = PBXGroup;
-			children = (
-				D9C9E6961E3644C800CBD713 /* BluetoothOffViewController.xib */,
-				D9C9E7051E366B2600CBD713 /* NoMacFoundViewController.xib */,
-				D9C9E70B1E367EB500CBD713 /* EnterPasswordViewController.xib */,
-			);
-			path = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,14 +316,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C9E6991E3644C800CBD713 /* Main.storyboard in Resources */,
-				D9C9E70C1E367EB500CBD713 /* EnterPasswordViewController.xib in Resources */,
+				D93DB8C91E37A8E50023E69C /* EnterPasswordViewController.xib in Resources */,
+				D93DB8C51E37A8E50023E69C /* LaunchScreen.storyboard in Resources */,
+				D93DB8C81E37A8E50023E69C /* BluetoothOffViewController.xib in Resources */,
+				D93DB8C41E37A8E50023E69C /* FarLockStoryboard.storyboard in Resources */,
+				D93DB8C71E37A8E50023E69C /* SearchingStoryboard.storyboard in Resources */,
 				D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */,
-				D9C9E6981E3644C800CBD713 /* LaunchScreen.storyboard in Resources */,
-				D9C9E6FE1E3665E600CBD713 /* FarLockStoryboard.storyboard in Resources */,
-				D9C9E69A1E3644C800CBD713 /* BluetoothOffViewController.xib in Resources */,
-				D9C9E6FC1E3665DA00CBD713 /* SearchingStoryboard.storyboard in Resources */,
-				D9C9E7061E366B2600CBD713 /* NoMacFoundViewController.xib in Resources */,
+				D93DB8CA1E37A8E50023E69C /* NoMacFoundViewController.xib in Resources */,
+				D93DB8D01E37AADF0023E69C /* LockConfigurationViewController.xib in Resources */,
+				D93DB8C61E37A8E50023E69C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,12 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C9E7091E367E9D00CBD713 /* EnterPasswordViewController.swift in Sources */,
-				D9C9E7001E36662A00CBD713 /* InitialViewController.swift in Sources */,
+				D93DB8C31E37A8E50023E69C /* Far_Lock.xcdatamodeld in Sources */,
+				D93DB8CD1E37AAC00023E69C /* LockConfigurationViewController.swift in Sources */,
+				D93DB8C01E37A8E50023E69C /* EnterPasswordViewController.swift in Sources */,
+				D93DB8BF1E37A8E50023E69C /* BluetoothOffViewController.swift in Sources */,
+				D93DB8C21E37A8E50023E69C /* NoMacFoundViewController.swift in Sources */,
 				D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */,
-				D9C9E7031E366AFF00CBD713 /* NoMacFoundViewController.swift in Sources */,
-				D9C9E6971E3644C800CBD713 /* Far_Lock.xcdatamodeld in Sources */,
-				D9C9E6851E3638EC00CBD713 /* BluetoothOffViewController.swift in Sources */,
+				D93DB8C11E37A8E50023E69C /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +587,7 @@
 				D9C9E6761E360B3F00CBD713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9C9E6771E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far LockTests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +596,7 @@
 				D9C9E6791E360B3F00CBD713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9C9E67A1E360B3F00CBD713 /* Build configuration list for PBXNativeTarget "Far LockUITests" */ = {
 			isa = XCConfigurationList;
@@ -595,16 +605,17 @@
 				D9C9E67C1E360B3F00CBD713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D9C9E68E1E3644C800CBD713 /* Far_Lock.xcdatamodeld */ = {
+		D93DB8B31E37A8E50023E69C /* Far_Lock.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D9C9E68F1E3644C800CBD713 /* Far_Lock.xcdatamodel */,
+				D93DB8B41E37A8E50023E69C /* Far_Lock.xcdatamodel */,
 			);
-			currentVersion = D9C9E68F1E3644C800CBD713 /* Far_Lock.xcdatamodel */;
+			currentVersion = D93DB8B41E37A8E50023E69C /* Far_Lock.xcdatamodel */;
 			path = Far_Lock.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

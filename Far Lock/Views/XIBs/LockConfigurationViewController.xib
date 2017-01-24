@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LockConfigurationViewController" customModule="Far_Lock" customModuleProvider="target">
+            <connections>
+                <outlet property="deviceNameLabel" destination="aw9-j2-lXY" id="Gee-79-8Bj"/>
+                <outlet property="distanceLabel" destination="lTB-Xl-ZwT" id="qgg-R2-gdl"/>
+                <outlet property="distanceSlider" destination="eCz-gH-Yg1" id="C1M-nv-E1b"/>
+                <outlet property="farLockSwitch" destination="lLm-E1-rAf" id="hYO-2x-Oy9"/>
+                <outlet property="infoButton" destination="3Ke-17-Vrj" id="W4M-iG-0zx"/>
+                <outlet property="infoView" destination="Wns-IK-1JN" id="Vvu-SV-XTg"/>
+                <outlet property="lockStatusLabel" destination="onS-lI-smw" id="aPH-3z-zeu"/>
+                <outlet property="lockUnlockDistanceLabel" destination="ZCa-T8-F8x" id="eoO-AK-R52"/>
+                <outlet property="okButton" destination="3pK-nY-sZY" id="gDq-HA-iCy"/>
+                <outlet property="rootStackView" destination="PUW-q6-jVh" id="tTm-OK-jkx"/>
+                <outlet property="unpairButton" destination="qXo-pq-iTA" id="jod-Dv-3qx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="PUW-q6-jVh">
+                    <rect key="frame" x="37.5" y="50" width="300" height="577"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="i4S-Tq-fjK">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="67.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw9-j2-lXY">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lock status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onS-lI-smw">
+                                    <rect key="frame" x="0.0" y="23.5" width="300" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTB-Xl-ZwT">
+                                    <rect key="frame" x="0.0" y="47" width="300" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="6oq-uo-kRQ">
+                            <rect key="frame" x="0.0" y="182" width="300" height="31"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Far Lock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEC-4O-0NX">
+                                    <rect key="frame" x="0.0" y="0.0" width="199" height="31"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ke-17-Vrj">
+                                    <rect key="frame" x="210" y="0.0" width="30" height="31"/>
+                                    <state key="normal" title="i">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="infoButtonPressed:" destination="-1" eventType="touchUpInside" id="nYi-Du-c6K"/>
+                                    </connections>
+                                </button>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lLm-E1-rAf">
+                                    <rect key="frame" x="251" y="0.0" width="51" height="31"/>
+                                    <color key="onTintColor" red="1" green="0.93443858572466199" blue="0.32493415421561522" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="farLockSwitchValueChanged:" destination="-1" eventType="valueChanged" id="4MI-2r-QFt"/>
+                                    </connections>
+                                </switch>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="756" verticalCompressionResistancePriority="756" text="1.0m" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCa-T8-F8x">
+                            <rect key="frame" x="0.0" y="327.5" width="300" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="WjF-5q-2bo"/>
+                                <constraint firstAttribute="width" constant="40" id="bJ7-i3-Pk8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Mgw-7j-YlF">
+                            <rect key="frame" x="0.0" y="482" width="300" height="95"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lock - Unlock Distance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDz-LG-UH9">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="eCz-gH-Yg1">
+                                    <rect key="frame" x="-2" y="21" width="304" height="31"/>
+                                    <color key="minimumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="maximumTrackTintColor" red="0.88862213743346485" green="0.92001110406091369" blue="0.90582772196256689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="distanceSliderValueChanged:" destination="-1" eventType="valueChanged" id="Va1-3p-Hrq"/>
+                                    </connections>
+                                </slider>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXo-pq-iTA">
+                                    <rect key="frame" x="0.0" y="55" width="300" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="200" id="OSH-h9-wRi"/>
+                                        <constraint firstAttribute="height" constant="40" id="kCQ-32-aU8"/>
+                                    </constraints>
+                                    <state key="normal" title="Unpair">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wns-IK-1JN">
+                    <rect key="frame" x="37" y="50" width="300" height="577"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toggle Far Lock ON to automatically lock your Mac when you walk away and unlock your Mac when you approach it" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAJ-mC-5pO">
+                            <rect key="frame" x="50" y="189" width="200" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="HHS-yx-kqB"/>
+                                <constraint firstAttribute="width" constant="200" id="INg-cN-oaz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pK-nY-sZY">
+                            <rect key="frame" x="50" y="497" width="200" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="28M-je-7yg"/>
+                                <constraint firstAttribute="height" constant="40" id="fOi-gA-HGJ"/>
+                            </constraints>
+                            <state key="normal" title="Ok">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="okButtonPressed:" destination="-1" eventType="touchUpInside" id="XKr-vP-UnT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="3pK-nY-sZY" secondAttribute="bottom" constant="40" id="5zF-fr-BS4"/>
+                        <constraint firstItem="3pK-nY-sZY" firstAttribute="centerX" secondItem="Wns-IK-1JN" secondAttribute="centerX" id="Gke-tj-eqg"/>
+                        <constraint firstItem="iAJ-mC-5pO" firstAttribute="centerX" secondItem="Wns-IK-1JN" secondAttribute="centerX" id="ZDT-L2-mT3"/>
+                        <constraint firstItem="iAJ-mC-5pO" firstAttribute="centerY" secondItem="Wns-IK-1JN" secondAttribute="centerY" id="hYb-e0-2lm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.75638986607051295" green="0.510146650562187" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wns-IK-1JN" firstAttribute="centerY" secondItem="PUW-q6-jVh" secondAttribute="centerY" id="FGL-qQ-e5O"/>
+                <constraint firstItem="Wns-IK-1JN" firstAttribute="width" secondItem="PUW-q6-jVh" secondAttribute="width" id="IHl-cK-qii"/>
+                <constraint firstItem="Wns-IK-1JN" firstAttribute="centerX" secondItem="PUW-q6-jVh" secondAttribute="centerX" id="SMS-Bn-a9c"/>
+                <constraint firstItem="Wns-IK-1JN" firstAttribute="height" secondItem="PUW-q6-jVh" secondAttribute="height" id="TV0-qC-0iU"/>
+                <constraint firstItem="PUW-q6-jVh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZVS-nd-gi9"/>
+                <constraint firstItem="PUW-q6-jVh" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="aUA-5u-RMd"/>
+                <constraint firstAttribute="bottom" secondItem="PUW-q6-jVh" secondAttribute="bottom" constant="40" id="mw0-be-Gvj"/>
+                <constraint firstItem="PUW-q6-jVh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="rfx-xt-t94"/>
+            </constraints>
+            <point key="canvasLocation" x="-470" y="-187"/>
+        </view>
+    </objects>
+</document>
