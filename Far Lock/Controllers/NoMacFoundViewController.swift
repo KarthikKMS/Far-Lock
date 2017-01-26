@@ -16,14 +16,13 @@ class NoMacFoundViewController: UIViewController {
         
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    // MARK: - IBActions
+    
+    @IBAction func havingTroubleButtonPressed() {
+        // delete start
+        self.performSegue(withIdentifier: "MacFoundSegue", sender: self)
+        // delete end
     }
-    */
 
 }

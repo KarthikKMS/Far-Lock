@@ -18,15 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         //
-        let shouldLoadSearchingStoryboard: Bool = true
-        if shouldLoadSearchingStoryboard {
-            let searchingStoryboard: UIStoryboard = UIStoryboard.init(name: "SearchingStoryboard", bundle: nil)
-            let initialViewController: UIViewController = searchingStoryboard.instantiateInitialViewController()!
-            self.window?.rootViewController = initialViewController
-        }
-        else {
-            
-        }
+        let searchingStoryboard: UIStoryboard = UIStoryboard.init(name: "FarLockStoryboard", bundle: nil)
+        let initialViewController: UIViewController = searchingStoryboard.instantiateInitialViewController()!
+        self.window?.rootViewController = initialViewController
         //
         
         return true

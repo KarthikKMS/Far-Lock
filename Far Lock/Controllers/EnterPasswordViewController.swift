@@ -59,7 +59,12 @@ class EnterPasswordViewController: UIViewController {
     }
 
     @IBAction func continueButtonPressed(_ sender: UIButton) {
-        
+//        let appDelegate = UIApplication.shared.delegate
+//        let searchingStoryboard: UIStoryboard = UIStoryboard.init(name: "FarLockStoryboard", bundle: nil)
+//        let initialViewController: UIViewController = searchingStoryboard.instantiateInitialViewController()!
+//        appDelegate?.window??.rootViewController = initialViewController
+
+        self.performSegue(withIdentifier: "CorrectPasswordSegue", sender: self)
     }
 
 }

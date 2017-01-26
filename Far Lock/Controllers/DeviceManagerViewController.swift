@@ -28,11 +28,15 @@ class DeviceManagerViewController: UIViewController {
     }
     
     @IBAction func addDeviceButtonPressed(_ sender: UIButton) {
-    
+        self.performSegue(withIdentifier: "AddNewDeviceSegue", sender: self)
     }
     
     @IBAction func settingsButtonPressed(_ sender: UIButton) {
     
+    }
+    
+    // delete after resuing deviceView
+    @IBAction func deviceButtonPressed(_ sender: UIButton) {
     }
     
 }

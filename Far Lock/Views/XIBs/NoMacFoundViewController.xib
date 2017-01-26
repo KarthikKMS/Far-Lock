@@ -81,6 +81,9 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hac-oC-cMt">
                             <rect key="frame" x="0.0" y="616" width="372.66666666666663" height="30"/>
                             <state key="normal" title="Having trouble connecting to your devices?"/>
+                            <connections>
+                                <action selector="havingTroubleButtonPressed" destination="-1" eventType="touchUpInside" id="sbv-Pd-YqS"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>
