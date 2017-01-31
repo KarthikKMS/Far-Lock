@@ -37,6 +37,7 @@ class DeviceManagerViewController: UIViewController {
     
     // delete after resuing deviceView
     @IBAction func deviceButtonPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "ConfigureLockSettingsSegue", sender: self)
     }
     
 }

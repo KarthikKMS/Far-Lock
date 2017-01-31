@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 class EnterPasswordViewController: UIViewController {
 
@@ -25,6 +26,7 @@ class EnterPasswordViewController: UIViewController {
     @IBOutlet weak var correctPasswordView: UIView!
     @IBOutlet weak var continueButton: UIButton!
     
+    
     // MARK: - ViewController Methods
     
     override func viewDidLoad() {
@@ -36,6 +38,12 @@ class EnterPasswordViewController: UIViewController {
         cancelButton.layer.borderColor = UIColor.white.cgColor
         tryAgainButton.layer.borderColor = UIColor.white.cgColor
         continueButton.layer.borderColor = UIColor.white.cgColor
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        BeaconRangerManager.set(delegate: self)
     }
     
     
@@ -66,5 +74,29 @@ class EnterPasswordViewController: UIViewController {
 
         self.performSegue(withIdentifier: "CorrectPasswordSegue", sender: self)
     }
+    
+}
 
+
+// MARK: - 
+
+extension EnterPasswordViewController: BeaconRangerManagerDelegate {
+    
+    func didEnterRegion(region: CLRegion) {
+        
+    }
+    
+    func didExitRegion(region: CLRegion) {
+        _ = self.navigationController?.popViewController(animated: true)
+    }
+    
+    func didRangeBeacon(beacon: CLBeacon, proximityString: String) {
+        switch proximityString {
+        case "far":
+            _ = self.navigationController?.popViewController(animated: true)
+        default:
+            break
+        }
+    }
+    
 }

@@ -23,6 +23,7 @@
 		D93DB8D01E37AADF0023E69C /* LockConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */; };
 		D93DB8D31E37C7E10023E69C /* DeviceManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB8D11E37C7E10023E69C /* DeviceManagerViewController.swift */; };
 		D93DB8D61E37C7EF0023E69C /* DeviceManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D93DB8D51E37C7EF0023E69C /* DeviceManagerViewController.xib */; };
+		D967B7051E3F9D2C00CFF27C /* BeaconRangerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967B7041E3F9D2C00CFF27C /* BeaconRangerManager.swift */; };
 		D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */; };
 		D9C9E6571E360B3E00CBD713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C9E6561E360B3E00CBD713 /* Assets.xcassets */; };
 		D9C9E6651E360B3F00CBD713 /* Far_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9E6641E360B3F00CBD713 /* Far_LockTests.swift */; };
@@ -63,6 +64,7 @@
 		D93DB8CF1E37AADF0023E69C /* LockConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockConfigurationViewController.xib; sourceTree = "<group>"; };
 		D93DB8D11E37C7E10023E69C /* DeviceManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManagerViewController.swift; sourceTree = "<group>"; };
 		D93DB8D51E37C7EF0023E69C /* DeviceManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceManagerViewController.xib; sourceTree = "<group>"; };
+		D967B7041E3F9D2C00CFF27C /* BeaconRangerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconRangerManager.swift; sourceTree = "<group>"; };
 		D9C9E6491E360B3E00CBD713 /* Far Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C9E64C1E360B3E00CBD713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C9E6561E360B3E00CBD713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 		D9C9E6901E3644C800CBD713 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				D967B7041E3F9D2C00CFF27C /* BeaconRangerManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				TargetAttributes = {
 					D9C9E6481E360B3E00CBD713 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2TL9982YKQ;
 						ProvisioningStyle = Automatic;
 					};
 					D9C9E65F1E360B3F00CBD713 = {
@@ -369,6 +373,7 @@
 				D93DB8C01E37A8E50023E69C /* EnterPasswordViewController.swift in Sources */,
 				D93DB8BF1E37A8E50023E69C /* BluetoothOffViewController.swift in Sources */,
 				D93DB8C21E37A8E50023E69C /* NoMacFoundViewController.swift in Sources */,
+				D967B7051E3F9D2C00CFF27C /* BeaconRangerManager.swift in Sources */,
 				D9C9E64D1E360B3E00CBD713 /* AppDelegate.swift in Sources */,
 				D93DB8C11E37A8E50023E69C /* InitialViewController.swift in Sources */,
 			);
@@ -503,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2TL9982YKQ;
 				INFOPLIST_FILE = "Far Lock/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-Lock";
@@ -516,7 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2TL9982YKQ;
 				INFOPLIST_FILE = "Far Lock/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KMS.Far-Lock";

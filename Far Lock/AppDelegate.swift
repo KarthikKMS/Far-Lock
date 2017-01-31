@@ -12,16 +12,21 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let uuidString = "0B0CBAF8-846D-4397-A1EE-D5FE9FFDDF6F"
+    
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         //
-        let searchingStoryboard: UIStoryboard = UIStoryboard.init(name: "FarLockStoryboard", bundle: nil)
+        let searchingStoryboard: UIStoryboard = UIStoryboard.init(name: "SearchingStoryboard", bundle: nil)
         let initialViewController: UIViewController = searchingStoryboard.instantiateInitialViewController()!
         self.window?.rootViewController = initialViewController
         //
+        
+        BeaconRangerManager.initBeaconRangerManager(uuid: NSUUID(uuidString: uuidString) as! UUID)
+        BeaconRangerManager.startMonitoringForBeacons()
         
         return true
     }
@@ -45,8 +50,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-        // Saves changes in the application's managed object context before the application terminates.
+        
+        BeaconRangerManager.stopMonitoringForBeacons()
+        
         self.saveContext()
     }
 
